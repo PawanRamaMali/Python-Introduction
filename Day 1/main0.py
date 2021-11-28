@@ -9,6 +9,9 @@ city = input("Enter the city you like : ").strip()
 print('Your new name could be {1} {2} {0} {1}'.format(street ,pet ,city))
 #print(f'Your band name could be {street} {city} {city} {pet}')
 
-#Syntax Error
-#Type Error
-#Value Error
+errors = """ Types of Errors : 
+Syntax Error 
+Type Error
+Value Error
+"""
+print(errors)
